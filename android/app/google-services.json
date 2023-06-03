@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "60835508507",
+    "project_id": "appexcelplus-9b015",
+    "storage_bucket": "appexcelplus-9b015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60835508507:android:4b7acb9666b9a8b58123be",
+        "android_client_info": {
+          "package_name": "com.example.app_excel2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60835508507-eenag75teironhoamfal5k0c2psnot9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuGXjHA1fI_sA6-JpWIwkgLW6DjApJ9W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60835508507-eenag75teironhoamfal5k0c2psnot9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

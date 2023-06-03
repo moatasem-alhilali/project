@@ -1,0 +1,94 @@
+name: app_excel2
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  lottie: ^2.3.2
+  flutter_animate:
+  awesome_snackbar_content: 
+  progress_state_button: ^1.0.4
+  dropdown_button2:
+  open_file: ^3.3.0
+  path_provider: ^2.0.14
+  syncfusion_flutter_xlsio: ^21.1.41
+  quickalert: ^1.0.1
+  focused_menu: ^1.0.5
+  internet_connection_checker: ^1.0.0+1
+  animated_text_kit: ^4.2.2
+
+  
+dev_dependencies:
+  flutter_native_splash: ^2.2.19
+
+flutter_native_splash:
+  color: "#42a5f5"
+  color_dark: "#42a5f5"
+  image_dark: assets/images/logo.png
+  image: assets/images/logo.png
+
+  android_12: 
+    image_android: assets/images/logo.png
+    image_dark_android: assets/images/logo.png
+    color_android:  "#42a5f5"
+    color_dark_android: "#42a5f5"
+
+  android: true
+  ios: false
+  web: false
+
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: InterBlack
+      fonts:
+        - asset: assets/fonts/en/Inter-Black.ttf
+
+    - family: InterExtraBold
+      fonts:
+        - asset: assets/fonts/en/Inter-ExtraBold.ttf
+
+    - family: InterExtraLight
+      fonts:
+        - asset: assets/fonts/en/Inter-ExtraLight.ttf
+
+    - family: InterLight
+      fonts:
+        - asset: assets/fonts/en/Inter-light.ttf
+
+    - family: InterMedium
+      fonts:
+        - asset: assets/fonts/en/Inter-Medium.ttf
+
+    - family: InterSemiBold
+      fonts:
+        - asset: assets/fonts/en/Inter-SemiBold.ttf
+
+    - family: InterRegular
+      fonts:
+        - asset: assets/fonts/en/Inter-Regular.ttf
+
+    - family: InterThin
+      fonts:
+        - asset: assets/fonts/en/Inter-Thin.ttf
+
+  uses-material-design: true
